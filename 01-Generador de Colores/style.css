@@ -10,6 +10,7 @@
 }
 
 .container-color{
+    background-color: #123456;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,9 +21,20 @@
     height: 200px;
     border: 5px solid #000;
     border-radius: 10px;
+    font-size: 200%;
+    max-width: 800px;
 }
 
 .container-button-change{
     display: flex;
     justify-content: center;
+}
+
+.button-change{
+    background-image: linear-gradient(to top, #fff, #ACC2E3);
+    min-height: 42px;
+    min-width: 190px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    border-radius: 5px;
 }
