@@ -6,14 +6,17 @@ const buttonChange = document.querySelector(".button-change")
 
 const caracteres = "0123456789ABCDEF";
 
-function concatenacion (){
-   return caracteres[Math.floor(Math.random() * 16)] + caracteres[Math.floor(Math.random() * 16)] + caracteres[Math.floor(Math.random() * 16)] + caracteres[Math.floor(Math.random() * 16)] + caracteres[Math.floor(Math.random() * 16)] + caracteres[Math.floor(Math.random() * 16)];
-}
-
 let resultado = "";
 
-fo
-{
+function concatenacion() {
 
+   let resultado = "";
+
+   for (let i = 0; i < 6; i++) {
+        resultado = resultado + caracteres[Math.floor(Math.random() * 16)];
+   }
+
+   return resultado;
 }
-console.log(concatenacion())
+
+const color = "#" + concatenacion();
