@@ -20,3 +20,18 @@ function concatenacion() {
 }
 
 const color = "#" + concatenacion();
+
+containerColor.style.backgroundColor =color;
+
+function cambiarColor() {
+
+   const color = "#" + concatenacion();
+
+   containerColor.style.backgroundColor = color;
+
+   colorCode.textContent = color;
+
+}
+
+buttonChange.addEventListener("click", cambiarColor);
+
