@@ -15,9 +15,26 @@
     flex-direction: column;
 }
 
-.container-input{
-    display: flex;
-    margin-top: 50px;;
+.text{
+    text-align: center;
+    margin-top: 40px;
 }
 
-.
+.container-input{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-evenly
+}
+
+.input{
+    height: 40px;
+    min-width: 50vw;
+    font-size: 20px;
+    padding: 8px;
+    background-color: #E9F0EE;
+}
+
+.button-añadir{
+    min-width: 40px;
+    background-color: #A5D19B;
+}
