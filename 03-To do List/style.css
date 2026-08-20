@@ -23,7 +23,7 @@
 .container-input{
     display: flex;
     margin-top: 20px;
-    justify-content: space-evenly
+    justify-content: space-evenly;
 }
 
 .input{
