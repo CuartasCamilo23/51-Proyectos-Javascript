@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main-header{
+    background-color: #B497C7;
+    text-align: center;
+    padding: 20px;
+}
+
+.container-body{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.container-password{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    text-align: center;
+}
+
+.password{
+    padding: 12px 30px;
+    width: 60vw;
+    background-color: red;
+}
+
+.button{
+    padding: 4px 8px;
+}
