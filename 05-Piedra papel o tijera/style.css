@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.main-header{
+    text-align: center;
+    padding: 20px;
+    background-color: #A5BD9F;
+}
+
+.container-game{
+    display: flex;
+}
+
+.container-resultado-pc{
+    width: 50vw;
+    height: 45vh;
+}
