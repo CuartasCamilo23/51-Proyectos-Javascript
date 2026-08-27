@@ -38,3 +38,9 @@
 .button:hover{
     background-color: #7F95B0;
 }
+
+.container-resultado{
+    background-color: rebeccapurple;
+    text-align: center;
+    font-size: 30px
+}
